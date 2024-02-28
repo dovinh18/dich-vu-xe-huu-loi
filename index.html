@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- EMBED fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>XE TIỀN GIANG ĐI ĐẾN MỌI NƠI VỚI DỊCH VỤ XE GIÁ RẺ</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+
+
+            <!-- hero -->
+            <section class="hero">
+                <!-- hero left -->
+                <section class="hero__content">
+                    <h1 class="hero__heading">XE TIỀN GIANG ĐI ĐẾN MỌI NƠI VỚI DỊCH VỤ XE GIÁ RẺ !!! CÓ THẬT KHÔNG ?
+                    </h1>
+                    <p class="hero__desc">Vâng, đúng như vậy! Với dịch vụ xe của chúng tôi, bạn có thể trải nghiệm mọi
+                        nơi trên đất nước với giá cả thì rẻ khỏi bàn cãi. </p>
+                    <div class="hero__row">
+                        <a href="#!" class="btn">(123) 456-7890</a>
+                        <span class="hero__phone">Đảm bảo bạn sẽ bất ngờ với giá xe. Hãy gọi ngay số trên bất kỳ lúc nào bạn muốn chúng tôi luôn hoạt động 24/7.</span>
+                    </div>
+                </section>
+
+                <!-- hero right -->
+                <div class="hero__media">
+                    <figure class="hero__images">
+                        <img src="./assets/img/car-4.jpg" alt="Xe Tiền Giang đến mọi nơi với giá cực rẻ"
+                            class="hero__img hero__img-large">
+                        <img src="./assets/img/car-2.jpg" alt="Xe Tiền Giang đến mọi nơi với giá cực rẻ"
+                            class="hero__img hero__img-small">
+                    </figure>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!-- Tablet/mobile header -->
+    <div class="mobile-header">
+        <!-- tablet/mobile menu -->
+
+        <div class="menu-drawer">
+            <!-- nav mobile -->
+            <ul id="navbar__list--mobile"></ul>
+            <!-- sử dụng js để copy navbar -->
+            <script>
+                const navPC = document.querySelector("#navbar__list--pc");
+                const navMobile = document.querySelector("#navbar__list--mobile");
+                // sao chep
+                navMobile.innerHTML = navPC.innerHTML;
+            </script>
+
+            <!-- separate ngăn cách  -->
+            <div class="separate"></div>
+            <!-- cta action -->
+        </div>
+    </div>
+
+    <!-- main -->
+    <main>
+        <!-- our service -->
+        <section class="service">
+            <div class="container">
+                <h2 class="service__heading section-heading">Dịch vụ của chúng tôi</h2>
+                <p class="service__desc section-desc">Khách hàng là trên hết.</p>
+
+                <div class="service__row">
+                    <!-- service left -->
+                    <figure>
+                        <img src="./assets/img/car-4.jpg" alt="Our services" class="service__img">
+                    </figure>
+                    <!-- service right -->
+                    <div class="service__list">
+                        <!-- item 1 -->
+                        <section class="service-item">
+                            <div class="service-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <div class="service-item__body">
+                                <div class="service-item__heading">
+                                    Nhanh chóng, tiện lợi
+                                </div>
+                                <div class="service-item__desc">
+                                    Dù bạn ở đâu, chỉ cần muốn đặt xe của chúng tôi, chúng tôi sẽ có mặt nhanh chóng.
+                                    Bạn có thể đặt xe chúng tôi, ở khắp mọi nơi. Facebook, zalo, số điện thoại. Chúng
+                                    tôi sẽ có mặt trong 3s để phục vụ quý khách.
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- item 2 -->
+                        <section class="service-item">
+                            <div class="service-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <div class="service-item__body">
+                                <div class="service-item__heading">
+                                    An toàn
+                                </div>
+                                <div class="service-item__desc">Chúng tôi luôn đặt khách hàng lên trên hết. Vì vậy, an
+                                    toàn cho khách hàng là nghĩa vụ của chúng tôi.</div>
+                            </div>
+                        </section>
+
+
+                        <!-- item 3 -->
+                        <section class="service-item">
+                            <div class="service-item__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 512 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M135.2 117.4L109.1 192H402.9l-26.1-74.6C372.3 104.6 360.2 96 346.6 96H165.4c-13.6 0-25.7 8.6-30.2 21.4zM39.6 196.8L74.8 96.3C88.3 57.8 124.6 32 165.4 32H346.6c40.8 0 77.1 25.8 90.6 64.3l35.2 100.5c23.2 9.6 39.6 32.5 39.6 59.2V400v48c0 17.7-14.3 32-32 32H448c-17.7 0-32-14.3-32-32V400H96v48c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32V400 256c0-26.7 16.4-49.6 39.6-59.2zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <div class="service-item__body">
+                                <div class="service-item__heading">
+                                    GIÁ CẢ LÀ CỰC RẺ VÀ HỢP LÝ
+                                </div>
+                                <div class="service-item__desc">Khi đến với dịch vụ của chúng tôi, bạn có thể trải
+                                    nghiệm "Dịch vụ xe Tiền Giang đi đến mọi nơi với giá cực rẻ và hợp lý". Tài xế thân
+                                    thiện, nhiệt tình. Xe hiện đại, sang trọng và đẹp mắt mang đến trải nghiệm cực kỳ
+                                    thoải mái.</div>
+                            </div>
+                        </section>
+                        <a href="#!" class="btn service__btn">HÃY ĐẶT NGAY</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- work -->
+        <section class="work">
+            <div class="container">
+                <h2 class="section-heading">Vậy khi các bạn đến với dịch vụ của chúng tôi, các bạn sẽ được gì ?</h2>
+                <p class="section-desc work__desc">Tôi tin rằng lúc các bạn nhấn vào trang web này là lúc các bạn đang
+                    cần 1 dịch vụ xe như tiêu đề. Vậy các bạn đã đến đúng nơi rồi đấy ! </p>
+
+                <div class="work__list">
+                    <!-- work item 1 -->
+                    <section class="work-item">
+                        <img src="./assets/img/safe.svg" alt="" class="work-item__icon">
+                        <h3 class="work-item__heading">An toàn</h3>
+                        <p class="work-item__desc">Khách hàng và sự an toàn của khách hàng sẽ được đảm bảo tuyệt đối khi
+                            sử dụng dịch vụ xe của chúng tôi.</p>
+                        <a href="#!" class="work-item__more">Learn More</a>
+                    </section>
+
+                    <!-- work item 2 -->
+                    <section class="work-item">
+                        <img src="./assets/img/people_safe.svg" alt="" class="work-item__icon">
+                        <h3 class="work-item__heading">Tài xế cực kỳ chất lượng.</h3>
+                        <p class="work-item__desc">Ngoài sự thân thiện thì tài xế chúng tôi còn có trình độ và kỹ năng
+                            đủ để đảm bảo sự an toàn tuyệt đối của quý khách trong quá trình sử dụng dịch vụ.</p>
+                        <a href="#!" class="work-item__more">Learn More</a>
+                    </section>
+
+                    <!-- work item 3 -->
+                    <section class="work-item">
+                        <img src="./assets/img/contract.svg" alt="" class="work-item__icon">
+                        <h3 class="work-item__heading">GIÁ CẢ CỰC KỲ RẺ</h3>
+                        <p class="work-item__desc">Vấn đề này chúng tôi xin được phép nhắc lại "Xe Tiền Giang đến mọi nơi
+                            với giá cực rẻ".</p>
+                        <a href="#!" class="work-item__more">Learn More</a>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about">
+            <div class="container">
+                <div class="about-row">
+                    <!-- about left -->
+                    <div class="about__media">
+                        <figure class="about__img">
+                            <img src="./assets/img/car-4.jpg" alt="" class="about__img--big">
+                            <img src="./assets/img/car-2.jpg" alt="" class="about__img--small">
+                        </figure>
+                    </div>
+                    <!-- about right -->
+                    <section class="about-content">
+                        <h2 class="section-heading">Xe Tiền Giang đến mọi nơi với giá cực rẻ</h2>
+                        <p class="section-desc">Tôi nghĩ điều bạn cần làm lúc này là gọi ngay cho chúng tôi. Bởi vì tôi biết bạn đang cần dịch vụ này.</p>
+                        <a href="#!" class="btn about-content__btn">GỌI NGAY</a>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- team -->
+        <section class="team">
+            <div class="container">
+                <div class="team-header">
+                    <h2 class="section-heading">HÌNH ẢNH XE</h2>
+                </div>
+
+                <div class="team__list">
+                    <!-- item 1 -->
+                    <article class="team-item">
+                        <div class="team-item__img-bg">
+                            <img src="./assets/img/car-esp.png" alt="Dr. Essence Page" class="team-item__thumb">
+                        </div>
+                        <h3 class="team-item__name">Xe Tiền Giang đến mọi nơi với giá cực rẻ</h3>
+                    </article>
+
+                    <!-- item 2 -->
+                     <article class="team-item">
+                         <div class="team-item__img-bg">
+                             <img src="./assets/img/car-esp.png" alt="Dr. Essence Page" class="team-item__thumb">
+                         </div>
+                         <h3 class="team-item__name">Xe Tiền Giang đến mọi nơi với giá cực rẻ</h3>
+                     </article>
+
+                    <!-- item 3 -->
+                    <article class="team-item">
+                        <div class="team-item__img-bg">
+                            <img src="./assets/img/car-esp.png" alt="Dr. Essence Page" class="team-item__thumb">
+                        </div>
+                        <h3 class="team-item__name">Xe Tiền Giang đến mọi nơi với giá cực rẻ</h3>
+                    </article>
+
+                    <!-- item 4 -->
+                     <article class="team-item">
+                         <div class="team-item__img-bg">
+                             <img src="./assets/img/car-esp.png" alt="Dr. Essence Page" class="team-item__thumb">
+                         </div>
+                         <h3 class="team-item__name">Xe Tiền Giang đến mọi nơi với giá cực rẻ</h3>
+                     </article>
+                </div>
+
+                
+            </div>
+        </section>
+
+       
+
+       
+
+        <!-- appointment -->
+        <section class="appointment">
+            <div class="container">
+                <div class="appointment__inner">
+                    <h2 class="section-heading appointment__heading">LUÔN CHÀO MỪNG QUÝ KHÁCH ĐẾN VỚI DỊCH VỤ XE HỮU LỢI
+                    </h2>
+                    <p class="section-desc appointment__desc">MỌI THÔNG TIN CHI TIẾT XIN LIÊN HỆ (541) 772-8846 </p>
+                    <a href="#!" class="btn appointment__btn">GỌI NGAY THÔI</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
